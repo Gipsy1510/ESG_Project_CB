@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+env/
+envs/
+
+# Environment variables
+.env
+
+# Data files
+data/raw_reports
+data/processed_text/*.json
+outputs/retrieved_chunks/*
+outputs/answers/*
+data/vector_store/
+data/processed_text/
+data/raw_reports/
+
+# Keep folder structure
+!data/raw_reports/.gitkeep
+!data/processed_text/.gitkeep
+!data/evaluation/.gitkeep
+!outputs/retrieved_chunks/.gitkeep
+!outputs/answers/.gitkeep
+
+# OS / editor
+.DS_Store
+.vscode/

@@ -1,0 +1,2 @@
+company,year,embeddings_path
+TotalEnergies,2024,data/processed_text/totalenergies_2024_chunk_embeddings.json
